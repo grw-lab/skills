@@ -3,10 +3,23 @@
 	"slug": "shared-server-deploy",
 	"summary": "Change one site on a shared cPanel, CWP, Plesk or Apache server without breaking its neighbours: discover, back up, test, reload, verify.",
 	"category": "Ops",
-	"agents": ["Claude Code", "Cursor", "Codex"],
-	"tags": ["deploy", "apache", "cpanel", "cwp", "htaccess", "devops"],
+	"agents": [
+		"Claude Code",
+		"Cursor",
+		"Codex"
+	],
+	"tags": [
+		"deploy",
+		"apache",
+		"cpanel",
+		"cwp",
+		"htaccess",
+		"devops"
+	],
 	"version": "0.1.0",
 	"license": "MIT",
 	"seo_title": "Shared Server Deploy: safe agent deploys",
-	"seo_description": "A free agent skill for deploying to shared servers safely: read-only discovery, backups, config tests, graceful reloads, and neighbour checks."
+	"seo_description": "A free agent skill for deploying to shared servers safely: read-only discovery, backups, config tests, graceful reloads, and neighbour checks.",
+	"repo_url": "https://github.com/grw-lab/skills/tree/main/shared-server-deploy",
+	"install": "claude plugin marketplace add grw-lab/skills && claude plugin install grw-skills@grw-lab"
 }

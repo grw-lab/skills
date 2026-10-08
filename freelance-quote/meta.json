@@ -3,10 +3,23 @@
 	"slug": "freelance-quote",
 	"summary": "Turns a client brief into a priced quote with ranged estimates, a visible buffer, and the terms that protect a freelancer. English and Arabic.",
 	"category": "Freelance",
-	"agents": ["Claude Code", "Claude.ai", "Cursor"],
-	"tags": ["freelance", "pricing", "quotes", "proposals", "estimates", "arabic"],
+	"agents": [
+		"Claude Code",
+		"Claude.ai",
+		"Cursor"
+	],
+	"tags": [
+		"freelance",
+		"pricing",
+		"quotes",
+		"proposals",
+		"estimates",
+		"arabic"
+	],
 	"version": "0.1.0",
 	"license": "MIT",
 	"seo_title": "Freelance Quote: agent skill for pricing projects",
-	"seo_description": "A free agent skill that turns a client brief into a priced quote: PERT estimates, buffer, pricing model, scope, payment terms. English and Arabic templates."
+	"seo_description": "A free agent skill that turns a client brief into a priced quote: PERT estimates, buffer, pricing model, scope, payment terms. English and Arabic templates.",
+	"repo_url": "https://github.com/grw-lab/skills/tree/main/freelance-quote",
+	"install": "claude plugin marketplace add grw-lab/skills && claude plugin install grw-skills@grw-lab"
 }

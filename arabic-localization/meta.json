@@ -3,10 +3,24 @@
 	"slug": "arabic-localization",
 	"summary": "Take an app to Arabic end to end: all six plural forms, digits, currency, Gregorian and Hijri dates, fonts, and a QA pass.",
 	"category": "Arabic & RTL",
-	"agents": ["Claude Code", "Claude.ai", "Cursor"],
-	"tags": ["arabic", "i18n", "localization", "plurals", "icu", "i18next", "hijri"],
+	"agents": [
+		"Claude Code",
+		"Claude.ai",
+		"Cursor"
+	],
+	"tags": [
+		"arabic",
+		"i18n",
+		"localization",
+		"plurals",
+		"icu",
+		"i18next",
+		"hijri"
+	],
 	"version": "0.1.0",
 	"license": "MIT",
 	"seo_title": "Arabic Localization skill for AI coding agents",
-	"seo_description": "Free agent skill that localizes apps to Arabic: six plural forms, Arabic-Indic digits, SAR currency, Hijri dates, and a plural checker for CI."
+	"seo_description": "Free agent skill that localizes apps to Arabic: six plural forms, Arabic-Indic digits, SAR currency, Hijri dates, and a plural checker for CI.",
+	"repo_url": "https://github.com/grw-lab/skills/tree/main/arabic-localization",
+	"install": "claude plugin marketplace add grw-lab/skills && claude plugin install grw-skills@grw-lab"
 }

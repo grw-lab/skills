@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+	/* color */
+	--color-white: #ffffff;
+	--color-gray-50: #f9fafb;
+	--color-gray-200: #e5e7eb;
+	--color-gray-500: #6b7280;
+	--color-gray-900: #111827;
+	--color-indigo-50: #eef2ff;
+	--color-indigo-600: #4f46e5;
+	--color-indigo-700: #4338ca;
+	--color-red-50: #fef2f2;
+	--color-red-600: #dc2626;
+	--color-red-800: #991b1b;
+	--color-green-700: #157f3c;
+	/* semantic */
+	--color-bg: #ffffff;
+	--color-surface: #f9fafb;
+	--color-text: #111827;
+	--color-muted: #6b7280;
+	--color-border: #e5e7eb;
+	--color-accent: #4f46e5;
+	--color-accent-hover: #4338ca;
+	--color-danger: #dc2626;
+	--color-success: #157f3c;
+	/* font */
+	--font-sans: "Inter", system-ui, sans-serif;
+	--font-mono: "JetBrains Mono", ui-monospace, monospace;
+	/* fontWeight */
+	--font-weight-regular: 400;
+	--font-weight-semibold: 600;
+	--font-weight-bold: 700;
+	/* text */
+	--text-xs: 0.75rem;
+	--text-xs--letter-spacing: 0.08em;
+	--text-sm: 0.875rem;
+	--text-base: 1rem;
+	--text-base--line-height: 1.5;
+	--text-lg: 1.25rem;
+	--text-xl: 1.5rem;
+	--text-xl--line-height: 1.25;
+	--text-2xl: 2.25rem;
+	--text-2xl--line-height: 1.15;
+	--text-2xl--letter-spacing: -0.02em;
+	--text-3xl: 3rem;
+	--text-3xl--line-height: 1.15;
+	--text-3xl--letter-spacing: -0.02em;
+	/* spacing */
+	--spacing-1: 0.25rem;
+	--spacing-2: 0.5rem;
+	--spacing-3: 0.75rem;
+	--spacing-4: 1rem;
+	--spacing-6: 1.5rem;
+	--spacing-8: 2rem;
+	--spacing-16: 4rem;
+	--spacing-20: 5rem;
+	/* radius */
+	--radius-sm: 0.5rem;
+	--radius-md: 0.75rem;
+	--radius-lg: 1rem;
+	--radius-full: 9999px;
+	/* shadow */
+	--shadow-sm: 0 1px 2px rgba(17, 24, 39, 0.06), 0 1px 3px rgba(17, 24, 39, 0.1);
+	--shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+	/* breakpoint */
+	--breakpoint-sm: 40rem;
+	--breakpoint-md: 48rem;
+	--breakpoint-lg: 64rem;
+	/* ease */
+	--ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+	--ease-out: ease-out;
+}
+
+/* Not Tailwind theme namespaces. Use as duration-(--duration-fast) or z-(--z-modal). */
+:root {
+	--duration-fast: 150ms;
+	--duration-normal: 300ms;
+	--z-sticky: 10;
+	--z-modal: 50;
+	--z-tooltip: 60;
+}

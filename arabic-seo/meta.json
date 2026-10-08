@@ -1,0 +1,12 @@
+{
+	"name": "Arabic SEO",
+	"slug": "arabic-seo",
+	"summary": "SEO for Arabic and bilingual sites: hreflang, dialect keywords, Arabic slugs and titles, Saudi and Gulf local signals, and Arabic font speed.",
+	"category": "Arabic & RTL",
+	"agents": ["Claude Code", "Claude.ai", "Cursor"],
+	"tags": ["Arabic", "SEO", "hreflang", "bilingual", "Saudi Arabia", "RTL", "local SEO"],
+	"version": "0.1.0",
+	"license": "MIT",
+	"seo_title": "Arabic SEO skill: hreflang, keywords, Saudi local",
+	"seo_description": "A free agent skill for Arabic and bilingual SEO: hreflang checks, dialect keywords, Arabic slugs and titles, Saudi and Gulf local signals, font speed."
+}

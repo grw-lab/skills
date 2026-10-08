@@ -1,0 +1,27 @@
+:root { --dir: 1; }
+[dir="rtl"] { --dir: -1; }
+
+.card {
+  margin: 0 auto;
+  padding-inline-start: 24px;
+  border-inline-start: 3px solid var(--accent);
+  border-start-start-radius: 8px;
+  text-align: start;
+}
+
+.card__badge {
+  position: absolute;
+  top: 12px;
+  inset-inline-end: 12px;
+}
+
+.card__icon {
+  float: inline-start;
+  margin-inline-end: 12px;
+}
+
+.drawer--closed { transform: translate(calc(-100% * var(--dir))); }
+
+[dir="rtl"] .card__arrow {
+  transform: scaleX(-1);
+}

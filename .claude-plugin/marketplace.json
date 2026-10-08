@@ -1,0 +1,27 @@
+{
+  "name": "grw-lab",
+  "owner": {
+    "name": "grw—lab",
+    "url": "https://grwlab.net/"
+  },
+  "description": "Free agent skills from grw—lab: Arabic and RTL, agent-ready web, Saudi e-invoicing, freelance quoting, design tokens, and safe deploys.",
+  "plugins": [
+    {
+      "name": "grw-skills",
+      "source": ".",
+      "description": "Nine free grw—lab agent skills. Docs: https://tools.grwlab.net/skills/",
+      "version": "0.1.0",
+      "skills": [
+        "./agent-ready-site",
+        "./arabic-copy",
+        "./arabic-localization",
+        "./arabic-seo",
+        "./design-tokens-extractor",
+        "./freelance-quote",
+        "./rtl-ui",
+        "./shared-server-deploy",
+        "./zatca-invoice"
+      ]
+    }
+  ]
+}

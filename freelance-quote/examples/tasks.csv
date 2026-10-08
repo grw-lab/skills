@@ -1,0 +1,14 @@
+deliverable,task,low,likely,high
+Discovery,Kickoff call and brief review,2,3,4
+Discovery,Sitemap and content plan,3,4,6
+Design,Homepage design (desktop + mobile),8,12,18
+Design,Inner page templates (3),8,10,16
+Design,Revisions (2 rounds),4,6,10
+Build,Theme setup and components,10,14,20
+Build,Pages build (6 pages),10,14,22
+Build,Contact form and email delivery,2,3,6
+Build,Arabic RTL version,8,12,20
+Launch,QA and cross-device testing,4,6,9
+Launch,Deployment and DNS,2,3,6
+Launch,Handover and training,1,2,3
+Management,Project management and calls,6,8,12

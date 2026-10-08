@@ -1,0 +1,121 @@
+{
+	"_about": "Draft from design-tokens-extractor. Rename freely, fill 'semantic', then run emit.mjs.",
+	"_source": [
+		"examples/fixture.css"
+	],
+	"color": {
+		"white": "#ffffff",
+		"white-a90": "#ffffffe6",
+		"neutral-100": "#fef2f2",
+		"neutral-100-2": "#eef2ff",
+		"neutral-200": "#e5e7eb",
+		"red-500": "#dc2626",
+		"neutral-500": "#6b7280",
+		"green-500": "#157f3c",
+		"brand": "#4f46e5",
+		"brand-dark": "#4338ca",
+		"red-600": "#991b1b",
+		"neutral-900": "#111827",
+		"neutral-900-a6": "#1118270f",
+		"neutral-900-a10": "#1118271a",
+		"black-a10": "#0000001a"
+	},
+	"semantic": {
+		"bg": "",
+		"surface": "",
+		"text": "",
+		"muted": "",
+		"border": "",
+		"accent": ""
+	},
+	"font": {
+		"sans": "\"Inter\", system-ui, sans-serif",
+		"mono": "\"JetBrains Mono\", ui-monospace, monospace"
+	},
+	"fontWeight": {
+		"semibold": 600,
+		"bold": 700
+	},
+	"text": {
+		"xs": {
+			"size": "0.75rem"
+		},
+		"sm": {
+			"size": "0.875rem"
+		},
+		"base": {
+			"size": "1rem"
+		},
+		"lg": {
+			"size": "1.25rem"
+		},
+		"xl": {
+			"size": "1.5rem"
+		},
+		"2xl": {
+			"size": "2.25rem"
+		},
+		"3xl": {
+			"size": "3rem"
+		}
+	},
+	"spacing": {
+		"2": "0.5rem",
+		"3": "0.75rem",
+		"4": "1rem",
+		"6": "1.5rem",
+		"8": "2rem",
+		"16": "4rem",
+		"20": "5rem",
+		"0.5": "0.125rem"
+	},
+	"radius": {
+		"sm": "0.5rem",
+		"md": "0.75rem",
+		"lg": "1rem",
+		"full": "9999px"
+	},
+	"shadow": {
+		"sm": "0 1px 2px rgba(17, 24, 39, 0.06), 0 1px 3px rgba(17, 24, 39, 0.1)",
+		"md": "0 20px 25px -5px rgba(0,0,0,.1), 0 8px 10px -6px rgba(0,0,0,.1)"
+	},
+	"breakpoint": {
+		"sm": "40rem",
+		"md": "48rem",
+		"lg": "64rem"
+	},
+	"duration": {
+		"fast": "150ms",
+		"normal": "300ms"
+	},
+	"ease": {
+		"out": "cubic-bezier(0.4, 0, 0.2, 1)"
+	},
+	"z": {
+		"base": 10,
+		"raised": 50,
+		"dropdown": 60
+	},
+	"_colorNote": "Primitive colors, lightest first. Fill 'semantic' with roles that point at them, e.g. \"text\": \"{color.ink}\".",
+	"_lineHeightsSeen": [
+		"1.5",
+		"1.15",
+		"1.25"
+	],
+	"_letterSpacingsSeen": [
+		"-0.02em",
+		"0.08em"
+	],
+	"_fluidOrRelativeSizes": [
+		"0.875em"
+	],
+	"_textNote": "Add lineHeight / letterSpacing / weight to text sizes where a pairing is consistent, e.g. { \"size\": \"0.875rem\", \"lineHeight\": \"1.4\" }.",
+	"_offScale": [
+		"0.625rem (10px, nearest 4px step: 12px)",
+		"1.125rem (18px, nearest 4px step: 20px)"
+	],
+	"_spacingNote": "Names are multiples of 4px (\"4\" = 16px). Snap _offScale values to the nearest step unless they are deliberate.",
+	"_breakpointNote": "Breakpoints sorted small to large. Check whether the CSS used min-width (mobile first) or max-width.",
+	"_easeNote": "Only custom cubic-bezier curves are listed. Rename by feel: out, in-out, emphasized.",
+	"_zNote": "Layer names are guesses by order. Rename by what each layer holds."
+}

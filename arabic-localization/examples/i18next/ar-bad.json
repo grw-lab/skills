@@ -1,0 +1,11 @@
+{
+	"cart": {
+		"title": "سلة التسوق",
+		"items_one": "منتج واحد",
+		"items_other": "{{count}} منتجات"
+	},
+	"inbox": {
+		"unread": "لديك {{count}} رسائل غير مقروءة"
+	},
+	"daysLeft": "{count, plural, one {بقي يوم واحد} other {بقي # يوم}}"
+}

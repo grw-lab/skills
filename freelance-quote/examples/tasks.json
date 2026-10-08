@@ -1,0 +1,7 @@
+[
+	{ "deliverable": "Audit", "task": "UX review of current checkout", "low": 4, "likely": 6, "high": 8 },
+	{ "deliverable": "Audit", "task": "Analytics review and report", "low": 3, "likely": 4, "high": 7 },
+	{ "deliverable": "Redesign", "task": "Checkout flow (4 screens)", "low": 12, "likely": 16, "high": 24 },
+	{ "deliverable": "Redesign", "task": "Usability test with 5 users", "low": 6, "likely": 8, "high": 12, "rate": 300 },
+	{ "deliverable": "Handover", "task": "Dev handoff and specs", "low": 3, "likely": 4, "high": 6 }
+]

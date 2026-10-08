@@ -1,0 +1,188 @@
+{
+	"_about": "Draft from design-tokens-extractor. Rename freely, fill 'semantic', then run emit.mjs.",
+	"_source": [
+		"styles.css (tools.grwlab.net)"
+	],
+	"color": {
+		"white": "#ffffff",
+		"white-a22": "#ffffff38",
+		"paper": "#f5f5f3",
+		"lime": "#e4f56b",
+		"line": "#e4e3df",
+		"sage": "#d7d3c6",
+		"neutral-300": "#cfcad6",
+		"neutral-300-2": "#c8c4bc",
+		"neutral-400": "#9a948b",
+		"neutral-500": "#8a847c",
+		"neutral-500-2": "#7a756c",
+		"muted": "#6f6a74",
+		"neutral-700": "#4d4654",
+		"neutral-800": "#2c2732",
+		"ink": "#1c1724",
+		"neutral-900-a18": "#1c17242e",
+		"black-a3": "#00000008"
+	},
+	"semantic": {
+		"bg": "",
+		"surface": "",
+		"text": "",
+		"muted": "",
+		"border": "",
+		"accent": ""
+	},
+	"font": {
+		"display": "\"Azeret Mono\", ui-monospace, monospace",
+		"sans": "Outfit, \"Avenir Next\", sans-serif"
+	},
+	"fontWeight": {
+		"regular": 400,
+		"semibold": 600
+	},
+	"text": {
+		"3xs": {
+			"size": "0.72rem"
+		},
+		"2xs": {
+			"size": "0.78rem"
+		},
+		"xs": {
+			"size": "0.86rem"
+		},
+		"sm": {
+			"size": "0.9rem"
+		},
+		"base": {
+			"size": "0.95rem"
+		},
+		"lg": {
+			"size": "1.02rem"
+		},
+		"xl": {
+			"size": "1.0625rem"
+		},
+		"2xl": {
+			"size": "1.1rem"
+		},
+		"3xl": {
+			"size": "1.15rem"
+		},
+		"4xl": {
+			"size": "1.2rem"
+		},
+		"5xl": {
+			"size": "1.28rem"
+		},
+		"6xl": {
+			"size": "1.35rem"
+		},
+		"7xl": {
+			"size": "1.45rem"
+		},
+		"8xl": {
+			"size": "1.55rem"
+		}
+	},
+	"spacing": {
+		"1": "0.25rem",
+		"2": "0.5rem",
+		"3": "0.75rem",
+		"4": "1rem",
+		"5": "1.25rem",
+		"6": "1.5rem",
+		"8": "2rem",
+		"12": "3rem",
+		"18": "4.5rem",
+		"24": "6rem",
+		"26": "6.5rem"
+	},
+	"radius": {
+		"sm": "0.3125rem",
+		"md": "0.375rem",
+		"lg": "0.5rem",
+		"xl": "0.625rem",
+		"2xl": "0.75rem",
+		"full": "50%"
+	},
+	"shadow": {
+		"sm": "0 1px 0 rgba(0, 0, 0, 0.03)",
+		"md": "0 10px 28px rgba(28, 23, 36, 0.18)"
+	},
+	"breakpoint": {
+		"sm": "50rem"
+	},
+	"duration": {
+		"fastest": "40ms",
+		"faster": "120ms",
+		"fast": "160ms",
+		"normal": "200ms",
+		"slow": "280ms",
+		"slower": "700ms",
+		"slowest": "850ms",
+		"d8": "2500ms"
+	},
+	"ease": {
+		"out": "cubic-bezier(0.16, 1, 0.3, 1)"
+	},
+	"z": {
+		"base": 3,
+		"raised": 5
+	},
+	"_colorNote": "Primitive colors, lightest first. Fill 'semantic' with roles that point at them, e.g. \"text\": \"{color.ink}\".",
+	"_typeNote": "14 distinct font sizes. Most systems need 6 to 9. Merge sizes within about 5% of each other into the most used one.",
+	"_lineHeightsSeen": [
+		"1.45",
+		"1.05",
+		"1.65",
+		"1.2",
+		"1.55"
+	],
+	"_letterSpacingsSeen": [
+		"-0.04em",
+		"0.12em",
+		"0.08em",
+		"0.04em",
+		"-0.03em",
+		"0.14em",
+		"-0.045em",
+		"0.06em"
+	],
+	"_fluidOrRelativeSizes": [
+		"calc((100cqi - 6rem) / 25.4)",
+		"clamp(0.82rem, 1.5vw, 1.05rem)",
+		"clamp(1.85rem, 8.4vw, 2.5rem)",
+		"clamp(2rem, 5.2cqi, 3.6rem)",
+		"0.86em"
+	],
+	"_textNote": "Add lineHeight / letterSpacing / weight to text sizes where a pairing is consistent, e.g. { \"size\": \"0.875rem\", \"lineHeight\": \"1.4\" }.",
+	"_offScale": [
+		"0.08rem (1.28px, nearest 4px step: 0px)",
+		"0.15rem (2.4px, nearest 4px step: 4px)",
+		"0.2rem (3.2px, nearest 4px step: 4px)",
+		"0.3rem (4.8px, nearest 4px step: 4px)",
+		"0.35rem (5.6px, nearest 4px step: 4px)",
+		"0.4rem (6.4px, nearest 4px step: 8px)",
+		"0.45rem (7.2px, nearest 4px step: 8px)",
+		"0.55rem (8.8px, nearest 4px step: 8px)",
+		"0.6rem (9.6px, nearest 4px step: 8px)",
+		"0.7rem (11.2px, nearest 4px step: 12px)",
+		"0.8rem (12.8px, nearest 4px step: 12px)",
+		"0.85rem (13.6px, nearest 4px step: 12px)",
+		"0.9rem (14.4px, nearest 4px step: 16px)",
+		"0.95rem (15.2px, nearest 4px step: 16px)",
+		"1.1rem (17.6px, nearest 4px step: 16px)",
+		"1.15rem (18.4px, nearest 4px step: 20px)",
+		"1.2rem (19.2px, nearest 4px step: 20px)",
+		"1.3rem (20.8px, nearest 4px step: 20px)",
+		"1.35rem (21.6px, nearest 4px step: 20px)",
+		"1.4rem (22.4px, nearest 4px step: 24px)",
+		"1.6rem (25.6px, nearest 4px step: 24px)",
+		"1.8rem (28.8px, nearest 4px step: 28px)",
+		"2.2rem (35.2px, nearest 4px step: 36px)",
+		"2.4rem (38.4px, nearest 4px step: 40px)",
+		"2.6rem (41.6px, nearest 4px step: 40px)"
+	],
+	"_spacingNote": "Names are multiples of 4px (\"4\" = 16px). Snap _offScale values to the nearest step unless they are deliberate.",
+	"_breakpointNote": "Breakpoints sorted small to large. Check whether the CSS used min-width (mobile first) or max-width.",
+	"_easeNote": "Only custom cubic-bezier curves are listed. Rename by feel: out, in-out, emphasized.",
+	"_zNote": "Layer names are guesses by order. Rename by what each layer holds."
+}

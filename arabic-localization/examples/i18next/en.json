@@ -1,0 +1,14 @@
+{
+	"cart": {
+		"title": "Your cart",
+		"items_one": "{{count}} item",
+		"items_other": "{{count}} items"
+	},
+	"inbox": {
+		"unread_one": "You have {{count}} unread message",
+		"unread_other": "You have {{count}} unread messages"
+	},
+	"reviews_one": "{{count}} review",
+	"reviews_other": "{{count}} reviews",
+	"daysLeft": "{count, plural, one {# day left} other {# days left}}"
+}

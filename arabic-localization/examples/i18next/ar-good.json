@@ -1,0 +1,26 @@
+{
+	"cart": {
+		"title": "سلة التسوق",
+		"items_zero": "السلة فارغة",
+		"items_one": "منتج واحد",
+		"items_two": "منتجان",
+		"items_few": "{{count}} منتجات",
+		"items_many": "{{count}} منتجًا",
+		"items_other": "{{count}} منتج"
+	},
+	"inbox": {
+		"unread_zero": "لا توجد رسائل غير مقروءة",
+		"unread_one": "لديك رسالة واحدة غير مقروءة",
+		"unread_two": "لديك رسالتان غير مقروءتين",
+		"unread_few": "لديك {{count}} رسائل غير مقروءة",
+		"unread_many": "لديك {{count}} رسالة غير مقروءة",
+		"unread_other": "لديك {{count}} رسالة غير مقروءة"
+	},
+	"reviews_zero": "لا توجد مراجعات",
+	"reviews_one": "مراجعة واحدة",
+	"reviews_two": "مراجعتان",
+	"reviews_few": "{{count}} مراجعات",
+	"reviews_many": "{{count}} مراجعة",
+	"reviews_other": "{{count}} مراجعة",
+	"daysLeft": "{count, plural, =0 {انتهت المدة} one {بقي يوم واحد} two {بقي يومان} few {بقيت # أيام} many {بقي # يومًا} other {بقي # يوم}}"
+}

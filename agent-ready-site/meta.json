@@ -1,0 +1,12 @@
+{
+	"name": "Agent-ready site",
+	"slug": "agent-ready-site",
+	"summary": "Makes any website readable by AI agents: llms.txt, Markdown twins, AI crawler rules, JSON-LD, and an audit that scores it.",
+	"category": "Agent-ready web",
+	"agents": ["Claude Code", "Claude.ai", "Cursor"],
+	"tags": ["llms.txt", "AI search", "GEO", "robots.txt", "Markdown", "structured data", "SEO"],
+	"version": "0.1.0",
+	"license": "MIT",
+	"seo_title": "Agent-ready site: llms.txt and AI crawler skill",
+	"seo_description": "A free agent skill that audits a website for AI agents and adds llms.txt, Markdown twins, AI crawler rules, JSON-LD and a catalog. Apache, Nginx, Next.js."
+}

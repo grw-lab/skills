@@ -1,0 +1,23 @@
+{
+  "name": "Arabic Copy",
+  "slug": "arabic-copy",
+  "summary": "Writes and reviews natural Arabic UI and marketing copy: the right register, gender-neutral address, correct punctuation, numbers and spelling.",
+  "category": "Arabic & RTL",
+  "agents": [
+    "Claude Code",
+    "Claude.ai",
+    "Cursor"
+  ],
+  "tags": [
+    "arabic",
+    "copywriting",
+    "localization",
+    "microcopy",
+    "translation",
+    "ux-writing"
+  ],
+  "version": "0.1.0",
+  "license": "MIT",
+  "seo_title": "Arabic Copy: free agent skill for natural Arabic UI text",
+  "seo_description": "An open-source agent skill that writes natural Arabic UI and marketing copy: simplified MSA or dialect, gender-neutral address, correct spelling."
+}

@@ -1,0 +1,5 @@
+{
+	"followers": "{count, plural, zero {لا يوجد متابعون} one {متابع واحد} two {متابعان} few {# متابعين} many {# متابعًا} other {# متابع}}",
+	"seats": "{count, plural, one {مقعد واحد} other {# مقعد}}",
+	"invite": "{gender, select, female {دعتك {name} إلى {count, plural, one {فريق واحد} two {فريقين} other {# فرق}}} other {دعاك {name} إلى {count, plural, one {فريق واحد} two {فريقين} few {# فرق} many {# فريقًا} other {# فريق}}}}"
+}

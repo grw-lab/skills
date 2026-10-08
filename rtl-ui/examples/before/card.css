@@ -1,0 +1,25 @@
+.card {
+  margin: 0 auto;
+  padding-left: 24px;
+  border-left: 3px solid var(--accent);
+  border-top-left-radius: 8px;
+  text-align: left;
+}
+
+.card__badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.card__icon {
+  float: left;
+  margin-right: 12px;
+}
+
+.drawer--closed { transform: translateX(-100%); }
+
+[dir="rtl"] .card__arrow {
+  transform: scaleX(-1);
+  margin-left: 4px;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "RTL UI",
+  "slug": "rtl-ui",
+  "summary": "Audits and fixes web interfaces for Arabic, Hebrew, Persian and Urdu: logical CSS, Tailwind, icon mirroring, bidi text and forms.",
+  "category": "Arabic & RTL",
+  "agents": ["Claude Code", "Claude.ai", "Cursor"],
+  "tags": ["rtl", "arabic", "css", "tailwind", "bidi", "i18n", "accessibility"],
+  "version": "0.1.0",
+  "license": "MIT",
+  "seo_title": "RTL UI: free agent skill for right-to-left web interfaces",
+  "seo_description": "An open-source agent skill that audits and fixes web UIs for Arabic and Hebrew: logical CSS, Tailwind classes, icon mirroring, bidi text and RTL forms."
+}

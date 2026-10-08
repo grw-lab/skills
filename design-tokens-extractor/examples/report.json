@@ -1,0 +1,483 @@
+{
+  "generated": "2026-10-08T10:44:57.340Z",
+  "files": [
+    "examples/fixture.css"
+  ],
+  "customProperties": {
+    "--brand": "#4f46e5",
+    "--brand-dark": "#4338ca"
+  },
+  "customPropertyUses": {
+    "--brand": 1,
+    "--brand-dark": 1
+  },
+  "colors": [
+    {
+      "value": "#4f46e5",
+      "count": 4,
+      "props": [
+        "--brand",
+        "color",
+        "border",
+        "var(--brand)"
+      ]
+    },
+    {
+      "value": "#4338ca",
+      "count": 3,
+      "props": [
+        "--brand-dark",
+        "color",
+        "var(--brand-dark)"
+      ]
+    },
+    {
+      "value": "#ffffff",
+      "count": 3,
+      "props": [
+        "background",
+        "color"
+      ]
+    },
+    {
+      "value": "#6b7280",
+      "count": 2,
+      "props": [
+        "color"
+      ]
+    },
+    {
+      "value": "#e5e7eb",
+      "count": 2,
+      "props": [
+        "border",
+        "border-bottom"
+      ]
+    },
+    {
+      "value": "#0000001a",
+      "count": 2,
+      "props": [
+        "box-shadow"
+      ]
+    },
+    {
+      "value": "#111827",
+      "count": 1,
+      "props": [
+        "color"
+      ]
+    },
+    {
+      "value": "#1118270f",
+      "count": 1,
+      "props": [
+        "box-shadow"
+      ]
+    },
+    {
+      "value": "#1118271a",
+      "count": 1,
+      "props": [
+        "box-shadow"
+      ]
+    },
+    {
+      "value": "#f9fafb",
+      "count": 1,
+      "props": [
+        "background"
+      ]
+    },
+    {
+      "value": "#e6e8eb",
+      "count": 1,
+      "props": [
+        "border-color"
+      ]
+    },
+    {
+      "value": "#dc2626",
+      "count": 1,
+      "props": [
+        "background"
+      ]
+    },
+    {
+      "value": "#eef2ff",
+      "count": 1,
+      "props": [
+        "background"
+      ]
+    },
+    {
+      "value": "#fef2f2",
+      "count": 1,
+      "props": [
+        "background"
+      ]
+    },
+    {
+      "value": "#991b1b",
+      "count": 1,
+      "props": [
+        "color"
+      ]
+    },
+    {
+      "value": "#157f3c",
+      "count": 1,
+      "props": [
+        "color"
+      ]
+    },
+    {
+      "value": "#ffffffe6",
+      "count": 1,
+      "props": [
+        "background"
+      ]
+    }
+  ],
+  "fontFamilies": [
+    {
+      "value": "\"Inter\", system-ui, sans-serif",
+      "count": 1,
+      "props": [
+        "font-family"
+      ]
+    },
+    {
+      "value": "\"JetBrains Mono\", ui-monospace, monospace",
+      "count": 1,
+      "props": [
+        "font-family"
+      ]
+    }
+  ],
+  "fontSizes": [
+    {
+      "value": "16px",
+      "count": 2,
+      "props": [
+        "font-size"
+      ]
+    },
+    {
+      "value": "12px",
+      "count": 2,
+      "props": [
+        "font-size"
+      ]
+    },
+    {
+      "value": "2.25rem",
+      "count": 1,
+      "props": [
+        "font-size"
+      ]
+    },
+    {
+      "value": "1.5rem",
+      "count": 1,
+      "props": [
+        "font-size"
+      ]
+    },
+    {
+      "value": "1.25rem",
+      "count": 1,
+      "props": [
+        "font-size"
+      ]
+    },
+    {
+      "value": "0.875rem",
+      "count": 1,
+      "props": [
+        "font-size"
+      ]
+    },
+    {
+      "value": "0.875em",
+      "count": 1,
+      "props": [
+        "font-size"
+      ]
+    },
+    {
+      "value": "3rem",
+      "count": 1,
+      "props": [
+        "font-size"
+      ]
+    }
+  ],
+  "fontWeights": [
+    {
+      "value": "600",
+      "count": 3,
+      "props": [
+        "font-weight"
+      ]
+    },
+    {
+      "value": "700",
+      "count": 2,
+      "props": [
+        "font-weight"
+      ]
+    }
+  ],
+  "lineHeights": [
+    {
+      "value": "1.5",
+      "count": 1,
+      "props": [
+        "line-height"
+      ]
+    },
+    {
+      "value": "1.15",
+      "count": 1,
+      "props": [
+        "line-height"
+      ]
+    },
+    {
+      "value": "1.25",
+      "count": 1,
+      "props": [
+        "line-height"
+      ]
+    }
+  ],
+  "letterSpacings": [
+    {
+      "value": "-0.02em",
+      "count": 1,
+      "props": [
+        "letter-spacing"
+      ]
+    },
+    {
+      "value": "0.08em",
+      "count": 1,
+      "props": [
+        "letter-spacing"
+      ]
+    }
+  ],
+  "spacing": [
+    {
+      "value": "24px",
+      "count": 4,
+      "props": [
+        "margin",
+        "padding",
+        "gap"
+      ]
+    },
+    {
+      "value": "16px",
+      "count": 3,
+      "props": [
+        "margin",
+        "margin-top",
+        "padding"
+      ]
+    },
+    {
+      "value": "8px",
+      "count": 3,
+      "props": [
+        "margin",
+        "gap",
+        "padding"
+      ]
+    },
+    {
+      "value": "32px",
+      "count": 2,
+      "props": [
+        "margin",
+        "padding"
+      ]
+    },
+    {
+      "value": "12px",
+      "count": 2,
+      "props": [
+        "margin",
+        "padding"
+      ]
+    },
+    {
+      "value": "64px",
+      "count": 1,
+      "props": [
+        "padding"
+      ]
+    },
+    {
+      "value": "10px",
+      "count": 1,
+      "props": [
+        "padding"
+      ]
+    },
+    {
+      "value": "18px",
+      "count": 1,
+      "props": [
+        "padding"
+      ]
+    },
+    {
+      "value": "2px",
+      "count": 1,
+      "props": [
+        "padding"
+      ]
+    },
+    {
+      "value": "80px",
+      "count": 1,
+      "props": [
+        "padding"
+      ]
+    }
+  ],
+  "radii": [
+    {
+      "value": "8px",
+      "count": 2,
+      "props": [
+        "border-radius"
+      ]
+    },
+    {
+      "value": "12px",
+      "count": 1,
+      "props": [
+        "border-radius"
+      ]
+    },
+    {
+      "value": "9999px",
+      "count": 1,
+      "props": [
+        "border-radius"
+      ]
+    },
+    {
+      "value": "16px",
+      "count": 1,
+      "props": [
+        "border-radius"
+      ]
+    }
+  ],
+  "shadows": [
+    {
+      "value": "0 1px 2px rgba(17, 24, 39, 0.06), 0 1px 3px rgba(17, 24, 39, 0.1)",
+      "count": 1,
+      "props": [
+        "box-shadow"
+      ]
+    },
+    {
+      "value": "0 20px 25px -5px rgba(0,0,0,.1), 0 8px 10px -6px rgba(0,0,0,.1)",
+      "count": 1,
+      "props": [
+        "box-shadow"
+      ]
+    }
+  ],
+  "breakpoints": [
+    {
+      "value": "640px",
+      "count": 1,
+      "props": [
+        "@media"
+      ]
+    },
+    {
+      "value": "1024px",
+      "count": 1,
+      "props": [
+        "@media"
+      ]
+    },
+    {
+      "value": "768px",
+      "count": 1,
+      "props": [
+        "@media"
+      ]
+    }
+  ],
+  "durations": [
+    {
+      "value": "150ms",
+      "count": 2,
+      "props": [
+        "transition"
+      ]
+    },
+    {
+      "value": "300ms",
+      "count": 1,
+      "props": [
+        "animation"
+      ]
+    }
+  ],
+  "easings": [
+    {
+      "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "count": 1,
+      "props": [
+        "transition"
+      ]
+    },
+    {
+      "value": "ease",
+      "count": 1,
+      "props": [
+        "transition"
+      ]
+    },
+    {
+      "value": "ease-out",
+      "count": 1,
+      "props": [
+        "animation"
+      ]
+    }
+  ],
+  "zIndex": [
+    {
+      "value": "50",
+      "count": 1,
+      "props": [
+        "z-index"
+      ]
+    },
+    {
+      "value": "10",
+      "count": 1,
+      "props": [
+        "z-index"
+      ]
+    },
+    {
+      "value": "60",
+      "count": 1,
+      "props": [
+        "z-index"
+      ]
+    }
+  ],
+  "unparsedColors": []
+}

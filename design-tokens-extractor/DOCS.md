@@ -14,7 +14,7 @@ The scripts measure; the agent names. You get primitives (`gray-200`, `indigo-60
 
 ## Install
 
-**Claude Code**, as a plugin (installs all nine grw—lab skills, updates with one command):
+**Claude Code**, as a plugin (installs all grw—lab skills, updates with one command):
 
 ```text
 /plugin marketplace add grw-lab/skills

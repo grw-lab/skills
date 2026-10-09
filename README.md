@@ -13,10 +13,11 @@ Free agent skills from [grw—lab](https://grwlab.net/). Each folder is one skil
 | [freelance-quote](freelance-quote/) | Turns a client brief into a priced quote and proposal, with ranges, assumptions and terms. |
 | [design-tokens-extractor](design-tokens-extractor/) | Pulls a design system out of a site or CSS into CSS variables, Tailwind and DTCG tokens. |
 | [shared-server-deploy](shared-server-deploy/) | Changes one site on a shared server without breaking its neighbours. |
+| [video-reader](video-reader/) | Turns a video into a contact sheet, key frames, cut times and audio numbers. |
 
 ## Install
 
-**Claude Code**, as a plugin (all nine skills):
+**Claude Code**, as a plugin (all the skills):
 
 ```text
 /plugin marketplace add grw-lab/skills
@@ -36,7 +37,7 @@ Swap `rtl-ui` for any skill, or copy them all. For one project only, copy into `
 
 **Other agents** (Cursor, Codex, Gemini CLI, Windsurf): point the agent at the skill's `SKILL.md`, or paste it into your rules file.
 
-Scripts need Node 18+ or Python 3.9+ and nothing else.
+Scripts need Node 18+ or Python 3.9+. video-reader also needs ffmpeg, numpy and Pillow.
 
 ## License
 

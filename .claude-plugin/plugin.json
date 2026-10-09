@@ -1,0 +1,27 @@
+{
+  "name": "grw-skills",
+  "displayName": "grw—lab skills",
+  "version": "0.1.0",
+  "description": "Free skills from grw—lab: video breakdowns, Arabic and RTL, agent-ready sites, Saudi e-invoices, freelance quotes, design tokens, and safe deploys.",
+  "author": {
+    "name": "grw—lab",
+    "email": "webmaster@grwlab.net",
+    "url": "https://grwlab.net/"
+  },
+  "homepage": "https://tools.grwlab.net/skills/",
+  "repository": "https://github.com/grw-lab/skills",
+  "license": "MIT",
+  "keywords": ["arabic", "rtl", "video", "skills", "seo", "zatca"],
+  "skills": [
+    "./agent-ready-site",
+    "./arabic-copy",
+    "./arabic-localization",
+    "./arabic-seo",
+    "./design-tokens-extractor",
+    "./freelance-quote",
+    "./rtl-ui",
+    "./shared-server-deploy",
+    "./video-reader",
+    "./zatca-invoice"
+  ]
+}

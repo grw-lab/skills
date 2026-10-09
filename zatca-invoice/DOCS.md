@@ -20,7 +20,7 @@ The QR code is where most homemade implementations break. It is not a link or JS
 
 ## Install
 
-**Claude Code**, as a plugin (installs all nine grw—lab skills, updates with one command):
+**Claude Code**, as a plugin (installs all grw—lab skills, updates with one command):
 
 ```text
 /plugin marketplace add grw-lab/skills

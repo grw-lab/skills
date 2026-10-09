@@ -16,7 +16,7 @@ It never invents your rate, currency, or tax rate. If it doesn't know them, it a
 
 ## Install
 
-**Claude Code**, as a plugin (installs all nine grw—lab skills, updates with one command):
+**Claude Code**, as a plugin (installs all grw—lab skills, updates with one command):
 
 ```text
 /plugin marketplace add grw-lab/skills

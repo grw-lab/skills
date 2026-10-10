@@ -22,5 +22,5 @@
 	"seo_title": "Arabic Localization skill for AI coding agents",
 	"seo_description": "Free agent skill that localizes apps to Arabic: six plural forms, Arabic-Indic digits, SAR currency, Hijri dates, and a plural checker for CI.",
 	"repo_url": "https://github.com/grw-lab/skills/tree/main/arabic-localization",
-	"install": "claude plugin marketplace add grw-lab/skills && claude plugin install grw-skills@grw-lab"
+	"install": "/plugin marketplace add grw-lab/skills && /plugin install arabic-localization@grw-lab"
 }

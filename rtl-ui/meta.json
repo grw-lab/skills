@@ -22,5 +22,5 @@
 	"seo_title": "RTL UI: free agent skill for right-to-left web interfaces",
 	"seo_description": "An open-source agent skill that audits and fixes web UIs for Arabic and Hebrew: logical CSS, Tailwind classes, icon mirroring, bidi text and RTL forms.",
 	"repo_url": "https://github.com/grw-lab/skills/tree/main/rtl-ui",
-	"install": "claude plugin marketplace add grw-lab/skills && claude plugin install grw-skills@grw-lab"
+	"install": "/plugin marketplace add grw-lab/skills && /plugin install rtl-ui@grw-lab"
 }

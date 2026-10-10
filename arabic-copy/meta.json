@@ -21,5 +21,5 @@
 	"seo_title": "Arabic Copy: free agent skill for natural Arabic UI text",
 	"seo_description": "An open-source agent skill that writes natural Arabic UI and marketing copy: simplified MSA or dialect, gender-neutral address, correct spelling.",
 	"repo_url": "https://github.com/grw-lab/skills/tree/main/arabic-copy",
-	"install": "claude plugin marketplace add grw-lab/skills && claude plugin install grw-skills@grw-lab"
+	"install": "/plugin marketplace add grw-lab/skills && /plugin install arabic-copy@grw-lab"
 }

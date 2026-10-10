@@ -7,10 +7,100 @@
   "description": "Free agent skills from grw—lab: video breakdowns, Arabic and RTL, agent-ready web, Saudi e-invoicing, freelance quoting, design tokens, and safe deploys.",
   "plugins": [
     {
+      "name": "agent-ready-site",
+      "source": "./agent-ready-site",
+      "description": "Makes a site readable by AI agents: llms.txt, Markdown twins, crawler rules, and JSON-LD.",
+      "version": "0.1.0",
+      "author": { "name": "grw—lab", "email": "webmaster@grwlab.net", "url": "https://grwlab.net/" },
+      "homepage": "https://tools.grwlab.net/skills/agent-ready-site/",
+      "license": "MIT"
+    },
+    {
+      "name": "arabic-copy",
+      "source": "./arabic-copy",
+      "description": "Writes natural Arabic UI and marketing copy: register, gender-neutral address, punctuation, and numbers.",
+      "version": "0.1.0",
+      "author": { "name": "grw—lab", "email": "webmaster@grwlab.net", "url": "https://grwlab.net/" },
+      "homepage": "https://tools.grwlab.net/skills/arabic-copy/",
+      "license": "MIT"
+    },
+    {
+      "name": "arabic-localization",
+      "source": "./arabic-localization",
+      "description": "Takes an app to Arabic: six plural forms, digits, currency, Gregorian and Hijri dates, and fonts.",
+      "version": "0.1.0",
+      "author": { "name": "grw—lab", "email": "webmaster@grwlab.net", "url": "https://grwlab.net/" },
+      "homepage": "https://tools.grwlab.net/skills/arabic-localization/",
+      "license": "MIT"
+    },
+    {
+      "name": "arabic-seo",
+      "source": "./arabic-seo",
+      "description": "SEO for Arabic and bilingual sites: hreflang, dialect keywords, Arabic slugs, and local signals.",
+      "version": "0.1.0",
+      "author": { "name": "grw—lab", "email": "webmaster@grwlab.net", "url": "https://grwlab.net/" },
+      "homepage": "https://tools.grwlab.net/skills/arabic-seo/",
+      "license": "MIT"
+    },
+    {
+      "name": "design-tokens-extractor",
+      "source": "./design-tokens-extractor",
+      "description": "Pulls a design system out of a site or CSS into CSS variables, Tailwind, and DTCG tokens.",
+      "version": "0.1.0",
+      "author": { "name": "grw—lab", "email": "webmaster@grwlab.net", "url": "https://grwlab.net/" },
+      "homepage": "https://tools.grwlab.net/skills/design-tokens-extractor/",
+      "license": "MIT"
+    },
+    {
+      "name": "freelance-quote",
+      "source": "./freelance-quote",
+      "description": "Turns a client brief into a priced quote with ranges, a buffer, and the terms that protect the job.",
+      "version": "0.1.0",
+      "author": { "name": "grw—lab", "email": "webmaster@grwlab.net", "url": "https://grwlab.net/" },
+      "homepage": "https://tools.grwlab.net/skills/freelance-quote/",
+      "license": "MIT"
+    },
+    {
+      "name": "rtl-ui",
+      "source": "./rtl-ui",
+      "description": "Audits and fixes right-to-left interfaces: logical CSS, icon mirroring, bidi text, and forms.",
+      "version": "0.1.0",
+      "author": { "name": "grw—lab", "email": "webmaster@grwlab.net", "url": "https://grwlab.net/" },
+      "homepage": "https://tools.grwlab.net/skills/rtl-ui/",
+      "license": "MIT"
+    },
+    {
+      "name": "shared-server-deploy",
+      "source": "./shared-server-deploy",
+      "description": "Changes one site on a shared server without breaking the sites next to it.",
+      "version": "0.1.0",
+      "author": { "name": "grw—lab", "email": "webmaster@grwlab.net", "url": "https://grwlab.net/" },
+      "homepage": "https://tools.grwlab.net/skills/shared-server-deploy/",
+      "license": "MIT"
+    },
+    {
+      "name": "video-reader",
+      "source": "./video-reader",
+      "description": "Turns a video into a contact sheet, key frames, cut times, and audio numbers.",
+      "version": "0.1.0",
+      "author": { "name": "grw—lab", "email": "webmaster@grwlab.net", "url": "https://grwlab.net/" },
+      "homepage": "https://tools.grwlab.net/skills/video-reader/",
+      "license": "MIT"
+    },
+    {
+      "name": "zatca-invoice",
+      "source": "./zatca-invoice",
+      "description": "Saudi e-invoice basics: the ZATCA QR code, VAT math, and the required fields.",
+      "version": "0.1.0",
+      "author": { "name": "grw—lab", "email": "webmaster@grwlab.net", "url": "https://grwlab.net/" },
+      "homepage": "https://tools.grwlab.net/skills/zatca-invoice/",
+      "license": "MIT"
+    },
+    {
       "name": "grw-skills",
       "source": ".",
-      "description": "Free grw—lab agent skills. Docs: https://tools.grwlab.net/skills/",
-      "version": "0.1.0",
+      "description": "Every grw—lab skill in one install. Install a single skill by its own name when you only need one.",
+      "version": "0.1.1",
       "skills": [
         "./agent-ready-site",
         "./arabic-copy",

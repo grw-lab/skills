@@ -21,5 +21,5 @@
 	"seo_title": "Shared Server Deploy: safe agent deploys",
 	"seo_description": "A free agent skill for deploying to shared servers safely: read-only discovery, backups, config tests, graceful reloads, and neighbour checks.",
 	"repo_url": "https://github.com/grw-lab/skills/tree/main/shared-server-deploy",
-	"install": "claude plugin marketplace add grw-lab/skills && claude plugin install grw-skills@grw-lab"
+	"install": "/plugin marketplace add grw-lab/skills && /plugin install shared-server-deploy@grw-lab"
 }

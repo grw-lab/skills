@@ -18,25 +18,28 @@ Arabic SEO gets Arabic and bilingual pages indexed in the right language, shown 
 
 ## Install
 
-**Claude Code**, as a plugin (installs all grw—lab skills, updates with one command):
+This installs **arabic-seo** only. The other skills stay out.
+
+1. Open Claude Code.
+2. Paste line 1 and press Enter. This adds the catalog. Do it once, then skip it next time.
+3. Paste line 2 and press Enter. This installs this skill.
 
 ```text
 /plugin marketplace add grw-lab/skills
+/plugin install arabic-seo@grw-lab
+```
+
+Claude confirms the install in the chat. The next message can use the skill.
+
+Every skill instead: keep line 1, and use this as line 2:
+
+```text
 /plugin install grw-skills@grw-lab
 ```
 
-**Claude Code**, this skill only:
+On claude.ai, zip the `arabic-seo` folder and upload it in Settings → Capabilities → Skills.
 
-```bash
-git clone https://github.com/grw-lab/skills.git ~/grwlab-skills
-mkdir -p ~/.claude/skills && cp -r ~/grwlab-skills/arabic-seo ~/.claude/skills/
-```
-
-For one project only, copy the folder into `.claude/skills/` inside that project instead.
-
-**Claude.ai**: zip the `arabic-seo` folder and upload it in Settings → Capabilities → Skills.
-
-**Other agents** (Cursor, Codex, Gemini CLI, Windsurf): point the agent at `arabic-seo/SKILL.md`, or paste it into your rules file. The instructions are plain Markdown.
+In Cursor or another agent, point it at `arabic-seo/SKILL.md`.
 
 ## Usage
 

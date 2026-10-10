@@ -17,25 +17,28 @@ It then writes a structured breakdown: what happens, how it moves, the rhythm, t
 
 ## Install
 
-**Claude Code**, as a plugin (installs all grw—lab skills, updates with one command):
+This installs **video-reader** only. The other skills stay out.
+
+1. Open Claude Code.
+2. Paste line 1 and press Enter. This adds the catalog. Do it once, then skip it next time.
+3. Paste line 2 and press Enter. This installs this skill.
 
 ```text
 /plugin marketplace add grw-lab/skills
+/plugin install video-reader@grw-lab
+```
+
+Claude confirms the install in the chat. The next message can use the skill.
+
+Every skill instead: keep line 1, and use this as line 2:
+
+```text
 /plugin install grw-skills@grw-lab
 ```
 
-**Claude Code**, this skill only:
+On claude.ai, zip the `video-reader` folder and upload it in Settings → Capabilities → Skills.
 
-```bash
-git clone https://github.com/grw-lab/skills.git ~/grwlab-skills
-mkdir -p ~/.claude/skills && cp -r ~/grwlab-skills/video-reader ~/.claude/skills/
-```
-
-For one project only, copy the folder into `.claude/skills/` inside that project instead.
-
-**Claude.ai**: zip the `video-reader` folder and upload it in Settings → Capabilities → Skills.
-
-**Other agents** (Cursor, Codex, Gemini CLI, Windsurf): point the agent at `video-reader/SKILL.md`, or paste it into your rules file. The instructions are plain Markdown.
+In Cursor or another agent, point it at `video-reader/SKILL.md`.
 
 The script also needs `ffmpeg` on your machine, plus Python packages `numpy` and `Pillow`.
 

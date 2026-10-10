@@ -22,5 +22,5 @@
 	"seo_title": "Agent-ready site: llms.txt and AI crawler skill",
 	"seo_description": "A free agent skill that audits a website for AI agents and adds llms.txt, Markdown twins, AI crawler rules, JSON-LD and a catalog. Apache, Nginx, Next.js.",
 	"repo_url": "https://github.com/grw-lab/skills/tree/main/agent-ready-site",
-	"install": "claude plugin marketplace add grw-lab/skills && claude plugin install grw-skills@grw-lab"
+	"install": "/plugin marketplace add grw-lab/skills && /plugin install agent-ready-site@grw-lab"
 }

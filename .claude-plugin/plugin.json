@@ -1,8 +1,8 @@
 {
   "name": "grw-skills",
   "displayName": "grw—lab skills",
-  "version": "0.1.0",
-  "description": "Free skills from grw—lab: video breakdowns, Arabic and RTL, agent-ready sites, Saudi e-invoices, freelance quotes, design tokens, and safe deploys.",
+  "version": "0.1.1",
+  "description": "Free skills from grw—lab, installed one at a time or all together: video breakdowns, Arabic and RTL, agent-ready sites, Saudi e-invoices, freelance quotes, design tokens, and safe deploys.",
   "author": {
     "name": "grw—lab",
     "email": "webmaster@grwlab.net",

@@ -3,13 +3,23 @@
 	"slug": "video-reader",
 	"summary": "Turns a video into a contact sheet, key frames, cut times and audio numbers so an agent can break it down without watching it.",
 	"category": "Motion",
-	"agents": ["Claude Code", "Claude.ai", "Cursor"],
-	"tags": ["video", "motion", "edit", "ffmpeg", "reference"],
+	"agents": [
+		"Claude Code",
+		"Claude.ai",
+		"Cursor"
+	],
+	"tags": [
+		"video",
+		"motion",
+		"edit",
+		"ffmpeg",
+		"reference"
+	],
 	"version": "0.1.0",
 	"license": "MIT",
 	"seo_title": "Video Reader: break a video into frames and cuts",
 	"seo_description": "A free agent skill that turns an mp4 into a contact sheet, key frames, cut times and audio numbers, then writes a structured breakdown.",
 	"repo_url": "https://github.com/grw-lab/skills/tree/main/video-reader",
-	"install": "claude plugin marketplace add grw-lab/skills && claude plugin install grw-skills@grw-lab",
+	"install": "/plugin marketplace add grw-lab/skills && /plugin install video-reader@grw-lab",
 	"order": 5
 }

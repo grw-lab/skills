@@ -48,22 +48,26 @@ Markdown body only (no front matter, no H1, the page already shows the name and 
 6. What's inside (files in the skill and what each is for)
 7. FAQ (3 to 5 real questions)
 
-Install section, the same for every skill (replace NAME):
+Install section, the same for every skill (replace NAME with the folder name):
 
     ## Install
 
-    **Claude Code** (all projects):
+    This installs **NAME** only. The other skills stay out.
 
-    ```bash
-    git clone https://github.com/grw-lab/skills.git ~/grwlab-skills
-    mkdir -p ~/.claude/skills && cp -r ~/grwlab-skills/NAME ~/.claude/skills/
+    1. Open Claude Code.
+    2. Paste line 1 and press Enter. This adds the catalog. Do it once, then skip it next time.
+    3. Paste line 2 and press Enter. This installs this skill.
+
+    ```text
+    /plugin marketplace add grw-lab/skills
+    /plugin install NAME@grw-lab
     ```
 
-    For one project only, copy the folder into `.claude/skills/` inside that project instead.
+    Every skill instead, as line 2: `/plugin install grw-skills@grw-lab`
 
-    **Claude.ai**: zip the `NAME` folder and upload it in Settings → Capabilities → Skills.
+    On claude.ai, zip the `NAME` folder and upload it in Settings → Capabilities → Skills.
 
-    **Other agents** (Cursor, Codex, Gemini CLI, Windsurf): point the agent at `NAME/SKILL.md`, or paste it into your rules file. The instructions are plain Markdown.
+    In Cursor or another agent, point it at `NAME/SKILL.md`.
 
 ## meta.json
 

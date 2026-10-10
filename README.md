@@ -17,25 +17,24 @@ Free agent skills from [grw—lab](https://grwlab.net/). Each folder is one skil
 
 ## Install
 
-**Claude Code**, as a plugin (all the skills):
+Open Claude Code. Paste line 1 once. Paste line 2 for the skill you want. Line 2 installs that skill alone.
 
 ```text
 /plugin marketplace add grw-lab/skills
+/plugin install video-reader@grw-lab
+```
+
+Swap `video-reader` for any folder in this repo. The steps for each skill are also on its page at [tools.grwlab.net/skills](https://tools.grwlab.net/skills/).
+
+Every skill instead, as line 2:
+
+```text
 /plugin install grw-skills@grw-lab
 ```
 
-**Claude Code**, one skill at a time:
+**Claude.ai**: zip one skill folder and upload it in Settings → Capabilities → Skills.
 
-```bash
-git clone https://github.com/grw-lab/skills.git ~/grwlab-skills
-mkdir -p ~/.claude/skills && cp -r ~/grwlab-skills/rtl-ui ~/.claude/skills/
-```
-
-Swap `rtl-ui` for any skill, or copy them all. For one project only, copy into `.claude/skills/` inside the project.
-
-**Claude.ai**: zip a skill folder and upload it in Settings → Capabilities → Skills.
-
-**Other agents** (Cursor, Codex, Gemini CLI, Windsurf): point the agent at the skill's `SKILL.md`, or paste it into your rules file.
+**Other agents** (Cursor, Codex, Gemini CLI, Windsurf): point the agent at that skill's `SKILL.md`.
 
 Scripts need Node 18+ or Python 3.9+. video-reader also needs ffmpeg, numpy and Pillow.
 

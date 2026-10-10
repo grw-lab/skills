@@ -39,8 +39,10 @@ ErrorDocument 404 /404.html
 ## Check it
 
 ```bash
-curl -sI https://child.example.com/does-not-exist | head -5
-curl -sI https://child.example.com/ | grep -i -E 'x-powered-by|link|cache-control'
+curl -sI https://child.example.com/does-not-exist
+curl -sI https://child.example.com/
 ```
+
+Read the status line and the `X-Powered-By`, `Link`, and `Cache-Control` headers in that output.
 
 If you see parent headers (for example `X-Powered-By: WP Rocket`) or a parent page, the parent is still leaking in.

@@ -11,6 +11,7 @@
   "homepage": "https://tools.grwlab.net/skills/",
   "repository": "https://github.com/grw-lab/skills",
   "license": "MIT",
+  "icon": "./.claude-plugin/icon.png",
   "keywords": ["arabic", "rtl", "video", "skills", "seo", "zatca"],
   "skills": [
     "./agent-ready-site",

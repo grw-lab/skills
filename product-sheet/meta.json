@@ -1,0 +1,15 @@
+{
+	"name": "Product sheet",
+	"slug": "product-sheet",
+	"summary": "Turns a product CSV into a sheet with a slug and a VAT split. You write the Arabic title. It does not upload to a store.",
+	"category": "Commerce",
+	"agents": ["Claude Code", "Claude.ai", "Cursor"],
+	"tags": ["products", "csv", "vat", "arabic", "catalog"],
+	"version": "0.1.0",
+	"license": "MIT",
+	"seo_title": "Product sheet with slug and VAT",
+	"seo_description": "A free agent skill that turns a product CSV into slugs and VAT-split prices, then writes Arabic titles from the facts already in the sheet.",
+	"repo_url": "https://github.com/grw-lab/skills/tree/main/product-sheet",
+	"install": "/plugin marketplace add grw-lab/skills && /plugin install product-sheet@grw-lab",
+	"order": 10
+}

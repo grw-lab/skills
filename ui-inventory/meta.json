@@ -1,0 +1,15 @@
+{
+	"name": "UI inventory",
+	"slug": "ui-inventory",
+	"summary": "Reads local HTML and CSS and lists the font sizes, colors, and corner radii in use, with counts.",
+	"category": "Design",
+	"agents": ["Claude Code", "Claude.ai", "Cursor"],
+	"tags": ["css", "html", "audit", "design"],
+	"version": "0.1.0",
+	"license": "MIT",
+	"seo_title": "UI inventory of local HTML and CSS",
+	"seo_description": "A free agent skill that reads local HTML and CSS and lists headings, font sizes, colors, and corner radii with counts. It does not edit the files.",
+	"repo_url": "https://github.com/grw-lab/skills/tree/main/ui-inventory",
+	"install": "/plugin marketplace add grw-lab/skills && /plugin install ui-inventory@grw-lab",
+	"order": 30
+}

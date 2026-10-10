@@ -1,0 +1,15 @@
+{
+	"name": "Client brief",
+	"slug": "client-brief",
+	"summary": "Turns a messy client message into a one-page brief with scope and open questions. It does not price the work.",
+	"category": "General",
+	"agents": ["Claude Code", "Claude.ai", "Cursor"],
+	"tags": ["brief", "scope", "client", "freelance"],
+	"version": "0.1.0",
+	"license": "MIT",
+	"seo_title": "Client brief from a messy message",
+	"seo_description": "A free agent skill that turns a WhatsApp thread, email, or transcript into a one-page brief with scope and open questions. It does not invent a price.",
+	"repo_url": "https://github.com/grw-lab/skills/tree/main/client-brief",
+	"install": "/plugin marketplace add grw-lab/skills && /plugin install client-brief@grw-lab",
+	"order": 50
+}

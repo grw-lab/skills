@@ -1,0 +1,15 @@
+{
+	"name": "VAT worksheet",
+	"slug": "vat-worksheet",
+	"summary": "Sums sales and purchase VAT from a CSV. VAT due is sales VAT minus purchase VAT. A worksheet, not a filed return.",
+	"category": "Accounting",
+	"agents": ["Claude Code", "Claude.ai", "Cursor"],
+	"tags": ["vat", "csv", "accounting", "saudi"],
+	"version": "0.1.0",
+	"license": "MIT",
+	"seo_title": "VAT worksheet from a spreadsheet",
+	"seo_description": "A free agent skill that sums sales and purchase VAT from a CSV at 15% or the rate on each row. It is a worksheet, not a filed return.",
+	"repo_url": "https://github.com/grw-lab/skills/tree/main/vat-worksheet",
+	"install": "/plugin marketplace add grw-lab/skills && /plugin install vat-worksheet@grw-lab",
+	"order": 20
+}

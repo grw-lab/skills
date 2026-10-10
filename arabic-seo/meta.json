@@ -2,7 +2,7 @@
 	"name": "Arabic SEO",
 	"slug": "arabic-seo",
 	"summary": "SEO for Arabic and bilingual sites: hreflang, dialect keywords, Arabic slugs and titles, Saudi and Gulf local signals, and Arabic font speed.",
-	"category": "Arabic & RTL",
+	"category": "Arabic",
 	"agents": [
 		"Claude Code",
 		"Claude.ai",
@@ -22,5 +22,6 @@
 	"seo_title": "Arabic SEO skill: hreflang, keywords, Saudi local",
 	"seo_description": "A free agent skill for Arabic and bilingual SEO: hreflang checks, dialect keywords, Arabic slugs and titles, Saudi and Gulf local signals, font speed.",
 	"repo_url": "https://github.com/grw-lab/skills/tree/main/arabic-seo",
-	"install": "/plugin marketplace add grw-lab/skills && /plugin install arabic-seo@grw-lab"
+	"install": "/plugin marketplace add grw-lab/skills && /plugin install arabic-seo@grw-lab",
+	"order": 30
 }

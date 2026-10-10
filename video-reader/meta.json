@@ -2,7 +2,7 @@
 	"name": "Video Reader",
 	"slug": "video-reader",
 	"summary": "Turns a video into a contact sheet, key frames, cut times and audio numbers so an agent can break it down without watching it.",
-	"category": "Motion",
+	"category": "General",
 	"agents": [
 		"Claude Code",
 		"Claude.ai",
@@ -21,5 +21,5 @@
 	"seo_description": "A free agent skill that turns an mp4 into a contact sheet, key frames, cut times and audio numbers, then writes a structured breakdown.",
 	"repo_url": "https://github.com/grw-lab/skills/tree/main/video-reader",
 	"install": "/plugin marketplace add grw-lab/skills && /plugin install video-reader@grw-lab",
-	"order": 5
+	"order": 10
 }

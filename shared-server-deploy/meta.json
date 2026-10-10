@@ -2,7 +2,7 @@
 	"name": "Shared Server Deploy",
 	"slug": "shared-server-deploy",
 	"summary": "Change one site on a shared cPanel, CWP, Plesk or Apache server without breaking its neighbours: discover, back up, test, reload, verify.",
-	"category": "Ops",
+	"category": "General",
 	"agents": [
 		"Claude Code",
 		"Cursor",
@@ -21,5 +21,6 @@
 	"seo_title": "Shared Server Deploy: safe agent deploys",
 	"seo_description": "A free agent skill for deploying to shared servers safely: read-only discovery, backups, config tests, graceful reloads, and neighbour checks.",
 	"repo_url": "https://github.com/grw-lab/skills/tree/main/shared-server-deploy",
-	"install": "/plugin marketplace add grw-lab/skills && /plugin install shared-server-deploy@grw-lab"
+	"install": "/plugin marketplace add grw-lab/skills && /plugin install shared-server-deploy@grw-lab",
+	"order": 30
 }

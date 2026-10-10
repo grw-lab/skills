@@ -2,7 +2,7 @@
 	"name": "RTL UI",
 	"slug": "rtl-ui",
 	"summary": "Audits and fixes web interfaces for Arabic, Hebrew, Persian and Urdu: logical CSS, Tailwind, icon mirroring, bidi text and forms.",
-	"category": "Arabic & RTL",
+	"category": "Design",
 	"agents": [
 		"Claude Code",
 		"Claude.ai",
@@ -22,5 +22,6 @@
 	"seo_title": "RTL UI: free agent skill for right-to-left web interfaces",
 	"seo_description": "An open-source agent skill that audits and fixes web UIs for Arabic and Hebrew: logical CSS, Tailwind classes, icon mirroring, bidi text and RTL forms.",
 	"repo_url": "https://github.com/grw-lab/skills/tree/main/rtl-ui",
-	"install": "/plugin marketplace add grw-lab/skills && /plugin install rtl-ui@grw-lab"
+	"install": "/plugin marketplace add grw-lab/skills && /plugin install rtl-ui@grw-lab",
+	"order": 20
 }

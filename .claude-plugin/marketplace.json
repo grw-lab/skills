@@ -97,19 +97,59 @@
       "license": "MIT"
     },
     {
+      "name": "client-brief",
+      "source": "./client-brief",
+      "description": "Turns a messy client message into a one-page brief with scope and open questions.",
+      "version": "0.1.0",
+      "author": { "name": "grw—lab", "email": "webmaster@grwlab.net", "url": "https://grwlab.net/" },
+      "homepage": "https://tools.grwlab.net/skills/client-brief/",
+      "license": "MIT"
+    },
+    {
+      "name": "product-sheet",
+      "source": "./product-sheet",
+      "description": "Turns a product CSV into slugs and a VAT split. You write the Arabic titles.",
+      "version": "0.1.0",
+      "author": { "name": "grw—lab", "email": "webmaster@grwlab.net", "url": "https://grwlab.net/" },
+      "homepage": "https://tools.grwlab.net/skills/product-sheet/",
+      "license": "MIT"
+    },
+    {
+      "name": "ui-inventory",
+      "source": "./ui-inventory",
+      "description": "Lists the font sizes, colors, and corner radii already used in local HTML and CSS.",
+      "version": "0.1.0",
+      "author": { "name": "grw—lab", "email": "webmaster@grwlab.net", "url": "https://grwlab.net/" },
+      "homepage": "https://tools.grwlab.net/skills/ui-inventory/",
+      "license": "MIT"
+    },
+    {
+      "name": "vat-worksheet",
+      "source": "./vat-worksheet",
+      "description": "Sums sales and purchase VAT from a CSV into a worksheet. Not a filed return.",
+      "version": "0.1.0",
+      "author": { "name": "grw—lab", "email": "webmaster@grwlab.net", "url": "https://grwlab.net/" },
+      "homepage": "https://tools.grwlab.net/skills/vat-worksheet/",
+      "license": "MIT"
+    },
+    {
       "name": "grw-skills",
       "source": ".",
       "description": "Every grw—lab skill in one install. Install a single skill by its own name when you only need one.",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "skills": [
         "./agent-ready-site",
         "./arabic-copy",
         "./arabic-localization",
         "./arabic-seo",
+        "./client-brief",
         "./design-tokens-extractor",
         "./freelance-quote",
+        "./product-sheet",
         "./rtl-ui",
         "./shared-server-deploy",
+        "./ui-inventory",
+        "./vat-worksheet",
         "./video-reader",
         "./zatca-invoice"
       ]

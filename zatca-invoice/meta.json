@@ -2,7 +2,7 @@
 	"name": "ZATCA E-Invoice",
 	"slug": "zatca-invoice",
 	"summary": "Build Saudi e-invoices: the ZATCA QR code (TLV + Base64), required fields, 15% VAT rounding, and a map of Phase 2 integration.",
-	"category": "Saudi commerce",
+	"category": "Accounting",
 	"agents": [
 		"Claude Code",
 		"Claude.ai",
@@ -22,5 +22,6 @@
 	"seo_title": "ZATCA e-invoice QR and VAT skill for AI agents",
 	"seo_description": "Free agent skill for Saudi e-invoicing: ZATCA QR TLV encoder and decoder, invoice fields, 15% VAT rounding, and a Phase 2 integration map.",
 	"repo_url": "https://github.com/grw-lab/skills/tree/main/zatca-invoice",
-	"install": "/plugin marketplace add grw-lab/skills && /plugin install zatca-invoice@grw-lab"
+	"install": "/plugin marketplace add grw-lab/skills && /plugin install zatca-invoice@grw-lab",
+	"order": 10
 }

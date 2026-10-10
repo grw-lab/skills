@@ -2,7 +2,7 @@
 	"name": "Design Tokens Extractor",
 	"slug": "design-tokens-extractor",
 	"summary": "Pulls a design system out of a live site, CSS, or screenshots into named tokens, then writes CSS variables, Tailwind v4/v3, and DTCG JSON.",
-	"category": "Design systems",
+	"category": "Design",
 	"agents": [
 		"Claude Code",
 		"Claude.ai",
@@ -22,5 +22,6 @@
 	"seo_title": "Design Tokens Extractor: agent skill for CSS and Tailwind",
 	"seo_description": "A free agent skill that extracts colors, type, spacing and more from any site into named tokens, checks contrast, and emits CSS, Tailwind, and DTCG JSON.",
 	"repo_url": "https://github.com/grw-lab/skills/tree/main/design-tokens-extractor",
-	"install": "/plugin marketplace add grw-lab/skills && /plugin install design-tokens-extractor@grw-lab"
+	"install": "/plugin marketplace add grw-lab/skills && /plugin install design-tokens-extractor@grw-lab",
+	"order": 10
 }

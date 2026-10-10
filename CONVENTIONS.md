@@ -76,7 +76,7 @@ Install section, the same for every skill (replace NAME with the folder name):
   "name": "Human Name",
   "slug": "skill-name",
   "summary": "One sentence, under 160 characters, what it does and for whom.",
-  "category": "Arabic & RTL | Agent-ready web | Freelance | Saudi commerce | Design systems | Ops",
+  "category": "General | Design | Arabic | Accounting | Commerce",
   "agents": ["Claude Code", "Claude.ai", "Cursor"],
   "tags": ["..."],
   "version": "0.1.0",

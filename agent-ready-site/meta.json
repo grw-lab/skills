@@ -2,7 +2,7 @@
 	"name": "Agent-ready site",
 	"slug": "agent-ready-site",
 	"summary": "Makes any website readable by AI agents: llms.txt, Markdown twins, AI crawler rules, JSON-LD, and an audit that scores it.",
-	"category": "Agent-ready web",
+	"category": "General",
 	"agents": [
 		"Claude Code",
 		"Claude.ai",
@@ -22,5 +22,6 @@
 	"seo_title": "Agent-ready site: llms.txt and AI crawler skill",
 	"seo_description": "A free agent skill that audits a website for AI agents and adds llms.txt, Markdown twins, AI crawler rules, JSON-LD and a catalog. Apache, Nginx, Next.js.",
 	"repo_url": "https://github.com/grw-lab/skills/tree/main/agent-ready-site",
-	"install": "/plugin marketplace add grw-lab/skills && /plugin install agent-ready-site@grw-lab"
+	"install": "/plugin marketplace add grw-lab/skills && /plugin install agent-ready-site@grw-lab",
+	"order": 20
 }
